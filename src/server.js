@@ -55,5 +55,5 @@ server.post('/users', async (request, reply) =>{
 });
 
 server.listen({
-    port: 3333
+    port: process.env.PORT ?? 3333
 });
